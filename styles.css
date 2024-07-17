@@ -49,9 +49,10 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  position: fixed;
+  position: relative;
   width: 100%;
   bottom: 0;
+  margin-top: 2rem;
 }
 
 #main-img {
