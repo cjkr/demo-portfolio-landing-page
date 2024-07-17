@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Landing Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+      }
+      nav {
+        margin: 1rem 0;
+      }
+      nav a {
+        color: #fff;
+        margin: 0 1rem;
+        text-decoration: none;
+      }
+      section {
+        padding: 2rem;
+        margin: 1rem 0;
+      }
+      .about,
+      .portfolio,
+      .contact {
+        text-align: center;
+      }
+      .portfolio img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 1rem;
+      }
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        Welcome to my portfolio. I am a passionate developer with experience in
+        web development, design, and more.
+      </p>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2>My Work</h2>
+      <div>
+        <img src="project1.jpg" alt="Project 1" />
+        <img src="project2.jpg" alt="Project 2" />
+        <img src="project3.jpg" alt="Project 3" />
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+    </section>
+    <footer>
+      <p>&copy; 2024 My Portfolio</p>
+    </footer>
+  </body>
+</html>
