@@ -28,7 +28,7 @@ This is a minimalist portfolio landing page designed to showcase your work, skil
 
 ## Link to Live Site
 
-You can view the live site on GitHub Pages here.
+You can view the live site on GitHub Pages [here](https://cjkr.github.io/demo-portfolio-landing-page/).
 
 ## License
 
